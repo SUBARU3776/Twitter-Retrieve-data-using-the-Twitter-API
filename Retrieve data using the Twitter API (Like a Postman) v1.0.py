@@ -12,8 +12,8 @@ params = {
     'user.fields': 'created_at,public_metrics'
 }
 
-user_id = '1315676658314215426'
-handle = 'Hidetoshi_H_'
+user_id = 'hogehoge'
+handle = 'hogehoge'
 url = f'https://api.twitter.com/2/users/{user_id}/tweets'
 
 response = requests.get(url, headers=headers, params=params)
