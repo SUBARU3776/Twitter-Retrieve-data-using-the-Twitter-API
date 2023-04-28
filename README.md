@@ -14,7 +14,7 @@
 #### 実行にはTwitter APIの認証情報が必要です。
 ##### 取得できるデータについては、APIリファレンスインデックスをご参照ください。
 https://developer.twitter.com/en/docs/api-reference-index<br>
-
+※ Python 3.11.1での動作確認済み
 ***********************************************************************************************************************************************************
 ### This Python script retrieves the latest tweet information for a specified user using a bearer token, stores it in a Pandas data frame, and saves it to a CSV file.
 
@@ -30,4 +30,5 @@ https://developer.twitter.com/en/docs/api-reference-index<br>
 
 #### Twitter API credentials are required for execution.
 #### Please refer to the API reference index for the data that can be obtained.
-https://developer.twitter.com/en/docs/api-reference-index
+https://developer.twitter.com/en/docs/api-reference-index<br>
+※ tested the operation with Python 3.11.1
